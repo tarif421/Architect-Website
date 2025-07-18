@@ -98,11 +98,12 @@ align-items: center;
   align-items: center;
 }
 .our-features {
-  margin-left: 110px;
-  max-width: 537px;
+  margin-left: 130px;
+  max-width: 500px;
 }
-.feature-title {
+.section-title {
   font-size: 2.8rem;
+  font-weight: 700;
 
 }
 #quick-list {
@@ -124,3 +125,12 @@ align-items: center;
 }
 
 /* media size device  */
+@media screen and (min-width:576px) and (max-width:992px) {
+  .teams {
+    flex-direction: column;
+  }
+  .our-features {
+    margin: 50px auto;
+  }
+
+}
